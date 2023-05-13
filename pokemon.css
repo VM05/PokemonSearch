@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  background: rgb(255, 0, 26);
+  background: linear-gradient(308deg, rgba(255, 0, 26, 1) 0%, rgba(236, 237, 0, 1) 100%);
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+#formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  margin: 100px;
+}
+
+.pokemon {
+  width: 100%;
+  text-align: center;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.boton {
+  width: 20%;
+  padding: 5px;
+  color: yellow;
+  background: red;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.error {
+  color: #fff;
+  font-size: 20px;
+}
+
+.resultado {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  margin-bottom: 100px;
+  padding: 0px 20px;
+}
+
+.card {
+  margin-top: 10px;
+  background: #fff;
+  border-radius: 5px;
+  padding: 10px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
